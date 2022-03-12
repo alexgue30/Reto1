@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+
+h1{
+    color:rgb(23, 192, 243);
+    padding:20px;
+    text-align:center;
+}
+
+section{
+    width:80%;
+    margin:auto;
+}
+
+h2, h4{
+    text-align:center;
+}
+
+form{
+    text-align:center;
+    font-family:Tahoma;
+    margin:10px;
+}
+
+input[type="email"], input[type="password"]{
+    width:28%;
+    height:70px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    font-size:16px;
+    border-radius:5px;
+}
+
+input[type="submit"]{
+    background:green;
+    width:10%;
+    height:50px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    border-radius:5px;
+}
