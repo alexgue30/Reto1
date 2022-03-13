@@ -13,15 +13,18 @@ h1{
     color:rgb(23, 192, 243);
     padding:20px;
     text-align:center;
+    font-size:45px;
 }
 
 section{
     width:80%;
     margin:auto;
+    font-family:Verdana;
 }
 
-h2, h4{
+h3{
     text-align:center;
+    color: rgb(107, 107, 107);
 }
 
 form{
@@ -30,14 +33,22 @@ form{
     margin:10px;
 }
 
+label{
+    color: rgb(107, 107, 107);
+    font-weight:bold;
+}
+
 input[type="email"], input[type="password"]{
     width:28%;
     height:70px;
     margin-bottom: 10px;
-    padding-left:10px;
+    padding-left:20px;
     font-size:16px;
     border-radius:5px;
+    border:2px solid rgb(219, 219, 219);
+    color: rgb(230, 230, 230);
 }
+
 
 input[type="submit"]{
     background:green;
@@ -45,6 +56,7 @@ input[type="submit"]{
     height:50px;
     color:white;
     font-weight:bold;
-    font-size:18px;
+    font-size:20px;
     border-radius:5px;
+    border:0px;
 }
